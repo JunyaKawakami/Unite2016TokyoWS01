@@ -5,7 +5,7 @@ using UnityEngine.Purchasing;
 using UnityEngine.UI;
 #if UNITY_ANDROID || UNITY_IOS || UNITY_STANDALONE_OSX
 using UnityEngine.Purchasing.Security;
-#end if
+#endif
 
 // Placing the Purchaser class in the CompleteProject namespace allows it to interact with ScoreManager, one of the existing Survival Shooter scripts.
 namespace CompleteProject
